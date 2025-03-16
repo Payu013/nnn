@@ -1,0 +1,133 @@
+/* กำหนดค่าพื้นฐานสำหรับเว็บไซต์ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* สไตล์สำหรับ Header */
+header {
+    background-color: #FF6F61;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* สไตล์สำหรับ Section Intro */
+.intro {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #FF6F61;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.cat-image {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* สไตล์สำหรับ Section Information */
+.info {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.info h2 {
+    font-size: 26px;
+    color: #FF6F61;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 30px;
+    padding: 0 10%;
+}
+
+/* สไตล์สำหรับ Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* เพิ่มการจัดรูปแบบสำหรับหน้าจอขนาดเล็ก */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .info p {
+        padding: 0 5%;
+    }
+
+    .cat-image {
+        width: 100%;
+    }
+}
